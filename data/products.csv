@@ -1,0 +1,11 @@
+product_id,product_name,category,unit_price,stock_quantity,supplier
+P001,Laptop,Electronics,45000,303,SupplierA
+P002,Smartphone,Electronics,25000,147,SupplierC
+P003,Headphones,Electronics,3000,431,SupplierB
+P004,Desk Chair,Furniture,8000,287,SupplierA
+P005,Notebook,Stationery,150,399,SupplierC
+P006,Pen Set,Stationery,200,235,SupplierC
+P007,Monitor,Electronics,18000,121,SupplierB
+P008,Keyboard,Electronics,2500,62,SupplierC
+P009,Bookshelf,Furniture,5000,434,SupplierC
+P010,Backpack,Accessories,1500,394,SupplierA

@@ -1,0 +1,166 @@
+{
+  "sales_by_category": [
+    {
+      "category": "Electronics",
+      "total_revenue": 11781150.0,
+      "total_orders": 228,
+      "avg_order_value": 51671.71
+    },
+    {
+      "category": "Furniture",
+      "total_revenue": 1422100.0,
+      "total_orders": 88,
+      "avg_order_value": 16160.23
+    },
+    {
+      "category": "Accessories",
+      "total_revenue": 193050.0,
+      "total_orders": 41,
+      "avg_order_value": 4708.54
+    },
+    {
+      "category": "Stationery",
+      "total_revenue": 48990.0,
+      "total_orders": 98,
+      "avg_order_value": 499.9
+    }
+  ],
+  "sales_by_month": [
+    {
+      "year_month": "2024-01",
+      "total_revenue": 821310.0,
+      "total_orders": 29
+    },
+    {
+      "year_month": "2024-02",
+      "total_revenue": 1076355.0,
+      "total_orders": 31
+    },
+    {
+      "year_month": "2024-03",
+      "total_revenue": 1052300.0,
+      "total_orders": 45
+    },
+    {
+      "year_month": "2024-04",
+      "total_revenue": 1119882.5,
+      "total_orders": 30
+    },
+    {
+      "year_month": "2024-05",
+      "total_revenue": 1193865.0,
+      "total_orders": 35
+    },
+    {
+      "year_month": "2024-06",
+      "total_revenue": 1503557.5,
+      "total_orders": 48
+    },
+    {
+      "year_month": "2024-07",
+      "total_revenue": 1341972.5,
+      "total_orders": 47
+    },
+    {
+      "year_month": "2024-08",
+      "total_revenue": 694440.0,
+      "total_orders": 30
+    },
+    {
+      "year_month": "2024-09",
+      "total_revenue": 1109155.0,
+      "total_orders": 33
+    },
+    {
+      "year_month": "2024-10",
+      "total_revenue": 1304077.5,
+      "total_orders": 53
+    },
+    {
+      "year_month": "2024-11",
+      "total_revenue": 1053975.0,
+      "total_orders": 35
+    },
+    {
+      "year_month": "2024-12",
+      "total_revenue": 1174400.0,
+      "total_orders": 39
+    }
+  ],
+  "top_customers": [
+    {
+      "customer_name": "Meera Joshi",
+      "total_spent": 1742482.5,
+      "order_count": 54
+    },
+    {
+      "customer_name": "Vikram Singh",
+      "total_spent": 1507410.0,
+      "order_count": 53
+    },
+    {
+      "customer_name": "Sneha Iyer",
+      "total_spent": 1451912.5,
+      "order_count": 49
+    },
+    {
+      "customer_name": "Aarav Sharma",
+      "total_spent": 1429670.0,
+      "order_count": 34
+    },
+    {
+      "customer_name": "Karan Mehta",
+      "total_spent": 1419970.0,
+      "order_count": 48
+    },
+    {
+      "customer_name": "Ananya Roy",
+      "total_spent": 1392762.5,
+      "order_count": 43
+    },
+    {
+      "customer_name": "Arjun Gupta",
+      "total_spent": 1301742.5,
+      "order_count": 40
+    },
+    {
+      "customer_name": "Divya Nair",
+      "total_spent": 1220202.5,
+      "order_count": 49
+    },
+    {
+      "customer_name": "Priya Patel",
+      "total_spent": 1083435.0,
+      "order_count": 44
+    },
+    {
+      "customer_name": "Rohan Verma",
+      "total_spent": 895702.5,
+      "order_count": 41
+    }
+  ],
+  "status_distribution": [
+    {
+      "status": "Delivered",
+      "count": 250
+    },
+    {
+      "status": "Shipped",
+      "count": 103
+    },
+    {
+      "status": "Processing",
+      "count": 66
+    },
+    {
+      "status": "Returned",
+      "count": 36
+    }
+  ],
+  "kpis": {
+    "total_orders": 455,
+    "total_revenue": 13445290.0,
+    "avg_order_value": 29550.09,
+    "unique_customers": 10
+  }
+}

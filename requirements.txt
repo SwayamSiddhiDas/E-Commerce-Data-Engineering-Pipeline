@@ -1,0 +1,5 @@
+# E-Commerce Data Engineering Pipeline
+# Swayam Siddhi Das | 23051634 | B.Tech CSE | SAP ABAP Data Engineer
+# All standard library except reportlab (only needed for PDF generation)
+
+reportlab>=4.0.0

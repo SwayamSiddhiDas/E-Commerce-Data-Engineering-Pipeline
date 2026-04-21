@@ -1,0 +1,68 @@
+{
+  "run_at": "2026-04-21T18:14:39.634409",
+  "total": 10,
+  "passed": 9,
+  "failed": 1,
+  "checks": [
+    {
+      "check": "No NULL order_id in raw_orders",
+      "severity": "CRITICAL",
+      "result": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "No negative total_amount",
+      "severity": "HIGH",
+      "result": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "All orders linked to a customer",
+      "severity": "HIGH",
+      "result": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "All orders linked to a product",
+      "severity": "HIGH",
+      "result": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "No duplicate order_id in fact_orders",
+      "severity": "CRITICAL",
+      "result": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "fact_orders row count > 0",
+      "severity": "CRITICAL",
+      "result": 455,
+      "status": "PASS"
+    },
+    {
+      "check": "dim_date fully populated",
+      "severity": "MEDIUM",
+      "result": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "unit_price > 0 in dim_product",
+      "severity": "HIGH",
+      "result": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "Aggregation: agg_sales_by_category not empty",
+      "severity": "MEDIUM",
+      "result": 4,
+      "status": "PASS"
+    },
+    {
+      "check": "Anomaly: orders with unusually high total (>200000)",
+      "severity": "LOW",
+      "result": 2,
+      "status": "FAIL"
+    }
+  ]
+}

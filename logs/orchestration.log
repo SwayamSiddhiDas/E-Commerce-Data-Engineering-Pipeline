@@ -1,0 +1,148 @@
+2026-04-21 13:49:55,804 [INFO] ============================================================
+2026-04-21 13:49:55,804 [INFO] DAG [ecommerce_data_pipeline] EXECUTION STARTED
+2026-04-21 13:49:55,804 [INFO] Schedule: @daily | Run time: 2026-04-21T13:49:55.804970
+2026-04-21 13:49:55,805 [INFO] ============================================================
+2026-04-21 13:49:55,805 [INFO] ▶  Task [ingest_raw_data] started (attempt 1)
+2026-04-21 13:49:55,805 [INFO] =======================================================
+2026-04-21 13:49:55,805 [INFO] DATA INGESTION STARTED
+2026-04-21 13:49:55,805 [INFO] =======================================================
+2026-04-21 13:49:55,845 [INFO] [orders.csv] → [raw_orders]  loaded=500  skipped=0
+2026-04-21 13:49:55,856 [INFO] [products.csv] → [raw_products]  loaded=10  skipped=0
+2026-04-21 13:49:55,865 [INFO] [customers.csv] → [raw_customers]  loaded=10  skipped=0
+2026-04-21 13:49:55,866 [INFO] DATA INGESTION COMPLETE
+2026-04-21 13:49:55,866 [INFO] =======================================================
+2026-04-21 13:49:55,866 [INFO] ✅ Task [ingest_raw_data] succeeded in 0.06s
+2026-04-21 13:49:55,866 [INFO] ▶  Task [transform_data] started (attempt 1)
+2026-04-21 13:49:55,866 [INFO] =======================================================
+2026-04-21 13:49:55,866 [INFO] DATA PROCESSING STARTED
+2026-04-21 13:49:55,866 [INFO] =======================================================
+2026-04-21 13:49:55,924 [INFO] Building dim_date...
+2026-04-21 13:49:55,942 [INFO] dim_date: 287 dates loaded
+2026-04-21 13:49:55,942 [INFO] Building dim_customer...
+2026-04-21 13:49:55,951 [INFO] dim_customer: 10 rows
+2026-04-21 13:49:55,952 [INFO] Building dim_product...
+2026-04-21 13:49:55,962 [INFO] dim_product: 10 rows
+2026-04-21 13:49:55,962 [INFO] Building fact_orders...
+2026-04-21 13:49:55,991 [INFO] fact_orders: 455 rows
+2026-04-21 13:49:55,991 [INFO] Building aggregation tables...
+2026-04-21 13:49:56,001 [INFO] Aggregations complete
+2026-04-21 13:49:56,002 [INFO] DATA PROCESSING COMPLETE
+2026-04-21 13:49:56,002 [INFO] =======================================================
+2026-04-21 13:49:56,002 [INFO] ✅ Task [transform_data] succeeded in 0.14s
+2026-04-21 13:49:56,002 [INFO] ▶  Task [data_quality_gate] started (attempt 1)
+2026-04-21 13:49:56,002 [INFO] =======================================================
+2026-04-21 13:49:56,002 [INFO] DATA QUALITY CHECKS STARTED
+2026-04-21 13:49:56,002 [INFO] =======================================================
+2026-04-21 13:49:56,003 [INFO] ✅ [CRITICAL] No NULL order_id in raw_orders → PASS (value=0)
+2026-04-21 13:49:56,003 [INFO] ✅ [HIGH] No negative total_amount → PASS (value=0)
+2026-04-21 13:49:56,004 [INFO] ✅ [HIGH] All orders linked to a customer → PASS (value=0)
+2026-04-21 13:49:56,004 [INFO] ✅ [HIGH] All orders linked to a product → PASS (value=0)
+2026-04-21 13:49:56,004 [INFO] ✅ [CRITICAL] No duplicate order_id in fact_orders → PASS (value=0)
+2026-04-21 13:49:56,004 [INFO] ✅ [CRITICAL] fact_orders row count > 0 → PASS (value=455)
+2026-04-21 13:49:56,005 [INFO] ✅ [MEDIUM] dim_date fully populated → PASS (value=0)
+2026-04-21 13:49:56,005 [INFO] ✅ [HIGH] unit_price > 0 in dim_product → PASS (value=0)
+2026-04-21 13:49:56,005 [INFO] ✅ [MEDIUM] Aggregation: agg_sales_by_category not empty → PASS (value=4)
+2026-04-21 13:49:56,005 [INFO] ❌ [LOW] Anomaly: orders with unusually high total (>200000) → FAIL (value=2)
+2026-04-21 13:49:56,005 [INFO] 
+Summary: 9/10 checks passed, 1 failed
+2026-04-21 13:49:56,005 [INFO] =======================================================
+2026-04-21 13:49:56,006 [INFO] Quality report saved to: /home/claude/capstone_project/orchestration/../processing/../logs/quality_report.json
+2026-04-21 13:49:56,006 [INFO] ✅ Task [data_quality_gate] succeeded in 0.00s
+2026-04-21 13:49:56,006 [INFO] ============================================================
+2026-04-21 13:49:56,006 [INFO] DAG [ecommerce_data_pipeline] FINISHED in 0.20s
+2026-04-21 13:49:56,006 [INFO]   ✅ ingest_raw_data: success
+2026-04-21 13:49:56,006 [INFO]   ✅ transform_data: success
+2026-04-21 13:49:56,006 [INFO]   ✅ data_quality_gate: success
+2026-04-21 13:49:56,006 [INFO] All tasks completed successfully 🎉
+2026-04-21 13:49:56,006 [INFO] ============================================================
+2026-04-21 18:04:34,957 [INFO] ============================================================
+2026-04-21 18:04:34,957 [INFO] DAG [ecommerce_data_pipeline] EXECUTION STARTED
+2026-04-21 18:04:34,957 [INFO] Schedule: @daily | Run time: 2026-04-21T18:04:34.957457
+2026-04-21 18:04:34,957 [INFO] ============================================================
+2026-04-21 18:04:34,957 [INFO] ▶  Task [ingest_raw_data] started (attempt 1)
+2026-04-21 18:04:34,957 [INFO] =======================================================
+2026-04-21 18:04:34,957 [INFO] DATA INGESTION STARTED
+2026-04-21 18:04:34,957 [INFO] =======================================================
+2026-04-21 18:04:34,987 [INFO] [orders.csv] → [raw_orders]  loaded=500  skipped=0
+2026-04-21 18:04:34,993 [INFO] [products.csv] → [raw_products]  loaded=10  skipped=0
+2026-04-21 18:04:35,000 [INFO] [customers.csv] → [raw_customers]  loaded=10  skipped=0
+2026-04-21 18:04:35,000 [INFO] DATA INGESTION COMPLETE
+2026-04-21 18:04:35,001 [INFO] =======================================================
+2026-04-21 18:04:35,001 [INFO] ✅ Task [ingest_raw_data] succeeded in 0.04s
+2026-04-21 18:04:35,001 [INFO] ▶  Task [transform_data] started (attempt 1)
+2026-04-21 18:04:35,001 [INFO] =======================================================
+2026-04-21 18:04:35,001 [INFO] DATA PROCESSING STARTED
+2026-04-21 18:04:35,001 [INFO] =======================================================
+2026-04-21 18:04:35,044 [INFO] Building dim_date...
+2026-04-21 18:04:35,058 [INFO] dim_date: 287 dates loaded
+2026-04-21 18:04:35,058 [INFO] Building dim_customer...
+2026-04-21 18:04:35,065 [INFO] dim_customer: 10 rows
+2026-04-21 18:04:35,065 [INFO] Building dim_product...
+2026-04-21 18:04:35,072 [INFO] dim_product: 10 rows
+2026-04-21 18:04:35,072 [INFO] Building fact_orders...
+2026-04-21 18:04:35,080 [INFO] fact_orders: 455 rows
+2026-04-21 18:04:35,080 [INFO] Building aggregation tables...
+2026-04-21 18:04:35,088 [INFO] Aggregations complete
+2026-04-21 18:04:35,088 [INFO] DATA PROCESSING COMPLETE
+2026-04-21 18:04:35,088 [INFO] =======================================================
+2026-04-21 18:04:35,088 [INFO] ✅ Task [transform_data] succeeded in 0.09s
+2026-04-21 18:04:35,088 [INFO] ▶  Task [data_quality_gate] started (attempt 1)
+2026-04-21 18:04:35,088 [INFO] =======================================================
+2026-04-21 18:04:35,088 [INFO] DATA QUALITY CHECKS STARTED
+2026-04-21 18:04:35,088 [INFO] =======================================================
+2026-04-21 18:04:35,089 [INFO] ✅ [CRITICAL] No NULL order_id in raw_orders → PASS (value=0)
+2026-04-21 18:04:35,090 [INFO] ✅ [HIGH] No negative total_amount → PASS (value=0)
+2026-04-21 18:04:35,090 [INFO] ✅ [HIGH] All orders linked to a customer → PASS (value=0)
+2026-04-21 18:04:35,090 [INFO] ✅ [HIGH] All orders linked to a product → PASS (value=0)
+2026-04-21 18:04:35,091 [INFO] ✅ [CRITICAL] No duplicate order_id in fact_orders → PASS (value=0)
+2026-04-21 18:04:35,091 [INFO] ✅ [CRITICAL] fact_orders row count > 0 → PASS (value=455)
+2026-04-21 18:04:35,091 [INFO] ✅ [MEDIUM] dim_date fully populated → PASS (value=0)
+2026-04-21 18:04:35,091 [INFO] ✅ [HIGH] unit_price > 0 in dim_product → PASS (value=0)
+2026-04-21 18:04:35,091 [INFO] ✅ [MEDIUM] Aggregation: agg_sales_by_category not empty → PASS (value=4)
+2026-04-21 18:04:35,092 [INFO] ❌ [LOW] Anomaly: orders with unusually high total (>200000) → FAIL (value=2)
+2026-04-21 18:04:35,092 [INFO] 
+Summary: 9/10 checks passed, 1 failed
+2026-04-21 18:04:35,092 [INFO] =======================================================
+2026-04-21 18:04:35,092 [INFO] Quality report saved to: /home/claude/capstone_project/orchestration/../processing/../logs/quality_report.json
+2026-04-21 18:04:35,092 [INFO] ✅ Task [data_quality_gate] succeeded in 0.00s
+2026-04-21 18:04:35,092 [INFO] ============================================================
+2026-04-21 18:04:35,092 [INFO] DAG [ecommerce_data_pipeline] FINISHED in 0.14s
+2026-04-21 18:04:35,093 [INFO]   ✅ ingest_raw_data: success
+2026-04-21 18:04:35,093 [INFO]   ✅ transform_data: success
+2026-04-21 18:04:35,093 [INFO]   ✅ data_quality_gate: success
+2026-04-21 18:04:35,093 [INFO] All tasks completed successfully 🎉
+2026-04-21 18:04:35,093 [INFO] ============================================================
+2026-04-21 23:44:39,143 [INFO] ============================================================
+2026-04-21 23:44:39,143 [INFO] DAG [ecommerce_data_pipeline] EXECUTION STARTED
+2026-04-21 23:44:39,146 [INFO] Schedule: @daily | Run time: 2026-04-21T18:14:39.146114
+2026-04-21 23:44:39,147 [INFO] ============================================================
+2026-04-21 23:44:39,224 [INFO] =======================================================
+2026-04-21 23:44:39,224 [INFO] DATA INGESTION STARTED
+2026-04-21 23:44:39,225 [INFO] =======================================================
+2026-04-21 23:44:39,346 [INFO] DATA INGESTION COMPLETE
+2026-04-21 23:44:39,346 [INFO] =======================================================
+2026-04-21 23:44:39,363 [INFO] =======================================================
+2026-04-21 23:44:39,365 [INFO] DATA PROCESSING STARTED
+2026-04-21 23:44:39,368 [INFO] =======================================================
+2026-04-21 23:44:39,382 [INFO] Building dim_date...
+2026-04-21 23:44:39,410 [INFO] dim_date: 287 dates loaded
+2026-04-21 23:44:39,410 [INFO] Building dim_customer...
+2026-04-21 23:44:39,438 [INFO] dim_customer: 10 rows
+2026-04-21 23:44:39,441 [INFO] Building dim_product...
+2026-04-21 23:44:39,466 [INFO] dim_product: 10 rows
+2026-04-21 23:44:39,466 [INFO] Building fact_orders...
+2026-04-21 23:44:39,486 [INFO] fact_orders: 455 rows
+2026-04-21 23:44:39,487 [INFO] Building aggregation tables...
+2026-04-21 23:44:39,554 [INFO] Aggregations complete
+2026-04-21 23:44:39,560 [INFO] DATA PROCESSING COMPLETE
+2026-04-21 23:44:39,560 [INFO] =======================================================
+2026-04-21 23:44:39,566 [INFO] =======================================================
+2026-04-21 23:44:39,569 [INFO] DATA QUALITY CHECKS STARTED
+2026-04-21 23:44:39,569 [INFO] =======================================================
+2026-04-21 23:44:39,628 [INFO] 
+Summary: 9/10 checks passed, 1 failed
+2026-04-21 23:44:39,628 [INFO] =======================================================
+2026-04-21 23:44:39,663 [INFO] Quality report saved to: c:\Users\KIIT0001\Desktop\KIIT Academics\SAP_ABAP\capstone_SwayamSiddhiDas_23051634\capstone_project\orchestration\..\processing\..\logs\quality_report.json
+2026-04-21 23:44:39,732 [INFO] ============================================================
+2026-04-21 23:44:39,733 [INFO] DAG [ecommerce_data_pipeline] FINISHED in 0.58s
+2026-04-21 23:44:39,775 [INFO] ============================================================

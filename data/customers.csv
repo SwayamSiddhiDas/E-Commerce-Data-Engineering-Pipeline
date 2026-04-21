@@ -1,0 +1,11 @@
+customer_id,customer_name,city,state,email,signup_date
+C001,Aarav Sharma,Mumbai,Maharashtra,aarav.sharma@email.com,2022-11-01
+C002,Priya Patel,Ahmedabad,Gujarat,priya.patel@email.com,2022-02-03
+C003,Rohan Verma,Delhi,Delhi,rohan.verma@email.com,2023-04-06
+C004,Sneha Iyer,Chennai,Tamil Nadu,sneha.iyer@email.com,2022-09-27
+C005,Karan Mehta,Pune,Maharashtra,karan.mehta@email.com,2022-12-23
+C006,Ananya Roy,Kolkata,West Bengal,ananya.roy@email.com,2022-03-31
+C007,Vikram Singh,Jaipur,Rajasthan,vikram.singh@email.com,2023-03-26
+C008,Divya Nair,Bangalore,Karnataka,divya.nair@email.com,2022-05-01
+C009,Arjun Gupta,Hyderabad,Telangana,arjun.gupta@email.com,2022-08-31
+C010,Meera Joshi,Bhopal,Madhya Pradesh,meera.joshi@email.com,2022-08-03

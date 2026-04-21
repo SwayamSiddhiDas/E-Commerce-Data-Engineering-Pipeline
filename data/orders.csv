@@ -1,0 +1,501 @@
+order_id,order_date,customer_id,customer_name,city,state,product_id,product_name,category,unit_price,quantity,discount_pct,total_amount,status
+ORD00001,2024-11-23,C002,Priya Patel,Ahmedabad,Gujarat,P001,Laptop,Electronics,45000,3,5,128250.0,Delivered
+ORD00002,2024-02-22,C009,Arjun Gupta,Hyderabad,Telangana,P002,Smartphone,Electronics,25000,5,15,106250.0,Delivered
+ORD00003,2024-02-17,C004,Sneha Iyer,Chennai,Tamil Nadu,P004,Desk Chair,Furniture,8000,5,20,32000.0,Delivered
+ORD00004,2024-04-11,C009,Arjun Gupta,Hyderabad,Telangana,P007,Monitor,Electronics,18000,2,15,30600.0,Shipped
+ORD00005,2024-01-04,C003,Rohan Verma,Delhi,Delhi,P007,Monitor,Electronics,18000,3,10,48600.0,Delivered
+ORD00006,2024-06-21,C002,Priya Patel,Ahmedabad,Gujarat,P002,Smartphone,Electronics,25000,4,0,100000.0,Delivered
+ORD00007,2024-06-25,C010,Meera Joshi,Bhopal,Madhya Pradesh,P005,Notebook,Stationery,150,1,15,127.5,Shipped
+ORD00008,2024-07-12,C002,Priya Patel,Ahmedabad,Gujarat,P009,Bookshelf,Furniture,5000,3,20,12000.0,Cancelled
+ORD00009,2024-07-04,C010,Meera Joshi,Bhopal,Madhya Pradesh,P004,Desk Chair,Furniture,8000,1,0,8000.0,Shipped
+ORD00010,2024-05-28,C002,Priya Patel,Ahmedabad,Gujarat,P004,Desk Chair,Furniture,8000,1,15,6800.0,Delivered
+ORD00011,2024-11-21,C006,Ananya Roy,Kolkata,West Bengal,P003,Headphones,Electronics,3000,3,10,8100.0,Delivered
+ORD00012,2024-05-16,C002,Priya Patel,Ahmedabad,Gujarat,P010,Backpack,Accessories,1500,2,20,2400.0,Processing
+ORD00013,2024-03-24,C008,Divya Nair,Bangalore,Karnataka,P007,Monitor,Electronics,18000,3,20,43200.0,Delivered
+ORD00014,2024-06-15,C001,Aarav Sharma,Mumbai,Maharashtra,P004,Desk Chair,Furniture,8000,1,10,7200.0,Delivered
+ORD00015,2024-02-03,C004,Sneha Iyer,Chennai,Tamil Nadu,P010,Backpack,Accessories,1500,3,5,4275.0,Shipped
+ORD00016,2024-07-21,C008,Divya Nair,Bangalore,Karnataka,P003,Headphones,Electronics,3000,3,5,8550.0,Delivered
+ORD00017,2024-10-14,C009,Arjun Gupta,Hyderabad,Telangana,P005,Notebook,Stationery,150,5,15,637.5,Cancelled
+ORD00018,2024-07-23,C006,Ananya Roy,Kolkata,West Bengal,P004,Desk Chair,Furniture,8000,2,20,12800.0,Delivered
+ORD00019,2024-01-25,C002,Priya Patel,Ahmedabad,Gujarat,P003,Headphones,Electronics,3000,2,15,5100.0,Shipped
+ORD00020,2024-07-16,C007,Vikram Singh,Jaipur,Rajasthan,P010,Backpack,Accessories,1500,4,20,4800.0,Delivered
+ORD00021,2024-10-10,C001,Aarav Sharma,Mumbai,Maharashtra,P002,Smartphone,Electronics,25000,5,10,112500.0,Processing
+ORD00022,2024-06-23,C002,Priya Patel,Ahmedabad,Gujarat,P005,Notebook,Stationery,150,4,5,570.0,Delivered
+ORD00023,2024-05-14,C009,Arjun Gupta,Hyderabad,Telangana,P003,Headphones,Electronics,3000,5,0,15000.0,Cancelled
+ORD00024,2024-06-01,C009,Arjun Gupta,Hyderabad,Telangana,P010,Backpack,Accessories,1500,2,5,2850.0,Delivered
+ORD00025,2024-03-23,C009,Arjun Gupta,Hyderabad,Telangana,P009,Bookshelf,Furniture,5000,1,20,4000.0,Delivered
+ORD00026,2024-01-10,C002,Priya Patel,Ahmedabad,Gujarat,P006,Pen Set,Stationery,200,3,5,570.0,Delivered
+ORD00027,2024-10-17,C002,Priya Patel,Ahmedabad,Gujarat,P002,Smartphone,Electronics,25000,4,0,100000.0,Returned
+ORD00028,2024-09-29,C003,Rohan Verma,Delhi,Delhi,P003,Headphones,Electronics,3000,4,20,9600.0,Delivered
+ORD00029,2024-09-27,C010,Meera Joshi,Bhopal,Madhya Pradesh,P007,Monitor,Electronics,18000,2,20,28800.0,Processing
+ORD00030,2024-12-19,C004,Sneha Iyer,Chennai,Tamil Nadu,P005,Notebook,Stationery,150,4,10,540.0,Delivered
+ORD00031,2024-09-21,C008,Divya Nair,Bangalore,Karnataka,P002,Smartphone,Electronics,25000,2,5,47500.0,Delivered
+ORD00032,2024-01-11,C010,Meera Joshi,Bhopal,Madhya Pradesh,P009,Bookshelf,Furniture,5000,2,20,8000.0,Delivered
+ORD00033,2024-02-06,C001,Aarav Sharma,Mumbai,Maharashtra,P004,Desk Chair,Furniture,8000,1,0,8000.0,Cancelled
+ORD00034,2024-02-06,C009,Arjun Gupta,Hyderabad,Telangana,P004,Desk Chair,Furniture,8000,3,15,20400.0,Delivered
+ORD00035,2024-03-08,C010,Meera Joshi,Bhopal,Madhya Pradesh,P010,Backpack,Accessories,1500,4,5,5700.0,Processing
+ORD00036,2024-07-27,C004,Sneha Iyer,Chennai,Tamil Nadu,P002,Smartphone,Electronics,25000,1,15,21250.0,Delivered
+ORD00037,2024-07-29,C008,Divya Nair,Bangalore,Karnataka,P001,Laptop,Electronics,45000,1,0,45000.0,Delivered
+ORD00038,2024-06-22,C002,Priya Patel,Ahmedabad,Gujarat,P004,Desk Chair,Furniture,8000,2,5,15200.0,Shipped
+ORD00039,2024-03-12,C007,Vikram Singh,Jaipur,Rajasthan,P003,Headphones,Electronics,3000,3,15,7650.0,Delivered
+ORD00040,2024-02-08,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,1,0,5000.0,Shipped
+ORD00041,2024-10-03,C001,Aarav Sharma,Mumbai,Maharashtra,P002,Smartphone,Electronics,25000,2,5,47500.0,Delivered
+ORD00042,2024-09-03,C004,Sneha Iyer,Chennai,Tamil Nadu,P007,Monitor,Electronics,18000,1,5,17100.0,Delivered
+ORD00043,2024-07-18,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,3,15,6375.0,Shipped
+ORD00044,2024-10-11,C008,Divya Nair,Bangalore,Karnataka,P003,Headphones,Electronics,3000,2,10,5400.0,Delivered
+ORD00045,2024-01-30,C010,Meera Joshi,Bhopal,Madhya Pradesh,P009,Bookshelf,Furniture,5000,1,10,4500.0,Delivered
+ORD00046,2024-10-26,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,5,5,23750.0,Delivered
+ORD00047,2024-09-17,C002,Priya Patel,Ahmedabad,Gujarat,P003,Headphones,Electronics,3000,1,20,2400.0,Delivered
+ORD00048,2024-04-30,C007,Vikram Singh,Jaipur,Rajasthan,P002,Smartphone,Electronics,25000,5,5,118750.0,Shipped
+ORD00049,2024-01-21,C010,Meera Joshi,Bhopal,Madhya Pradesh,P002,Smartphone,Electronics,25000,4,20,80000.0,Shipped
+ORD00050,2024-06-10,C005,Karan Mehta,Pune,Maharashtra,P004,Desk Chair,Furniture,8000,3,5,22800.0,Delivered
+ORD00051,2024-03-08,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,3,0,7500.0,Delivered
+ORD00052,2024-11-14,C010,Meera Joshi,Bhopal,Madhya Pradesh,P002,Smartphone,Electronics,25000,1,20,20000.0,Delivered
+ORD00053,2024-05-15,C003,Rohan Verma,Delhi,Delhi,P006,Pen Set,Stationery,200,1,5,190.0,Delivered
+ORD00054,2024-03-21,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,3,20,12000.0,Returned
+ORD00055,2024-11-30,C009,Arjun Gupta,Hyderabad,Telangana,P001,Laptop,Electronics,45000,5,10,202500.0,Cancelled
+ORD00056,2024-02-23,C003,Rohan Verma,Delhi,Delhi,P005,Notebook,Stationery,150,1,0,150.0,Processing
+ORD00057,2024-03-20,C005,Karan Mehta,Pune,Maharashtra,P005,Notebook,Stationery,150,5,5,712.5,Processing
+ORD00058,2024-04-14,C005,Karan Mehta,Pune,Maharashtra,P009,Bookshelf,Furniture,5000,4,10,18000.0,Cancelled
+ORD00059,2024-01-27,C002,Priya Patel,Ahmedabad,Gujarat,P007,Monitor,Electronics,18000,3,0,54000.0,Delivered
+ORD00060,2024-03-07,C005,Karan Mehta,Pune,Maharashtra,P003,Headphones,Electronics,3000,4,20,9600.0,Processing
+ORD00061,2024-10-14,C001,Aarav Sharma,Mumbai,Maharashtra,P002,Smartphone,Electronics,25000,1,5,23750.0,Shipped
+ORD00062,2024-07-08,C010,Meera Joshi,Bhopal,Madhya Pradesh,P009,Bookshelf,Furniture,5000,2,15,8500.0,Delivered
+ORD00063,2024-06-06,C006,Ananya Roy,Kolkata,West Bengal,P001,Laptop,Electronics,45000,3,5,128250.0,Shipped
+ORD00064,2024-12-07,C002,Priya Patel,Ahmedabad,Gujarat,P006,Pen Set,Stationery,200,5,15,850.0,Returned
+ORD00065,2024-03-20,C004,Sneha Iyer,Chennai,Tamil Nadu,P003,Headphones,Electronics,3000,2,15,5100.0,Delivered
+ORD00066,2024-06-19,C007,Vikram Singh,Jaipur,Rajasthan,P004,Desk Chair,Furniture,8000,3,5,22800.0,Processing
+ORD00067,2024-02-25,C007,Vikram Singh,Jaipur,Rajasthan,P001,Laptop,Electronics,45000,4,5,171000.0,Delivered
+ORD00068,2024-08-23,C006,Ananya Roy,Kolkata,West Bengal,P005,Notebook,Stationery,150,2,5,285.0,Delivered
+ORD00069,2024-04-08,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,3,0,600.0,Returned
+ORD00070,2024-05-22,C006,Ananya Roy,Kolkata,West Bengal,P009,Bookshelf,Furniture,5000,4,20,16000.0,Delivered
+ORD00071,2024-01-15,C002,Priya Patel,Ahmedabad,Gujarat,P005,Notebook,Stationery,150,2,20,240.0,Returned
+ORD00072,2024-05-15,C001,Aarav Sharma,Mumbai,Maharashtra,P002,Smartphone,Electronics,25000,5,15,106250.0,Delivered
+ORD00073,2024-06-09,C007,Vikram Singh,Jaipur,Rajasthan,P010,Backpack,Accessories,1500,5,0,7500.0,Delivered
+ORD00074,2024-10-22,C004,Sneha Iyer,Chennai,Tamil Nadu,P005,Notebook,Stationery,150,1,15,127.5,Delivered
+ORD00075,2024-10-02,C004,Sneha Iyer,Chennai,Tamil Nadu,P006,Pen Set,Stationery,200,4,0,800.0,Cancelled
+ORD00076,2024-06-18,C010,Meera Joshi,Bhopal,Madhya Pradesh,P006,Pen Set,Stationery,200,1,10,180.0,Shipped
+ORD00077,2024-12-07,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,4,10,720.0,Shipped
+ORD00078,2024-04-08,C007,Vikram Singh,Jaipur,Rajasthan,P007,Monitor,Electronics,18000,2,20,28800.0,Shipped
+ORD00079,2024-07-26,C009,Arjun Gupta,Hyderabad,Telangana,P001,Laptop,Electronics,45000,3,10,121500.0,Delivered
+ORD00080,2024-10-23,C010,Meera Joshi,Bhopal,Madhya Pradesh,P006,Pen Set,Stationery,200,4,15,680.0,Delivered
+ORD00081,2024-04-19,C009,Arjun Gupta,Hyderabad,Telangana,P008,Keyboard,Electronics,2500,2,0,5000.0,Delivered
+ORD00082,2024-12-05,C010,Meera Joshi,Bhopal,Madhya Pradesh,P006,Pen Set,Stationery,200,1,5,190.0,Shipped
+ORD00083,2024-04-25,C004,Sneha Iyer,Chennai,Tamil Nadu,P003,Headphones,Electronics,3000,1,0,3000.0,Delivered
+ORD00084,2024-08-31,C010,Meera Joshi,Bhopal,Madhya Pradesh,P002,Smartphone,Electronics,25000,4,15,85000.0,Cancelled
+ORD00085,2024-10-21,C004,Sneha Iyer,Chennai,Tamil Nadu,P007,Monitor,Electronics,18000,4,15,61200.0,Delivered
+ORD00086,2024-12-01,C001,Aarav Sharma,Mumbai,Maharashtra,P002,Smartphone,Electronics,25000,4,5,95000.0,Delivered
+ORD00087,2024-12-22,C009,Arjun Gupta,Hyderabad,Telangana,P008,Keyboard,Electronics,2500,1,20,2000.0,Delivered
+ORD00088,2024-03-03,C008,Divya Nair,Bangalore,Karnataka,P003,Headphones,Electronics,3000,4,20,9600.0,Returned
+ORD00089,2024-10-31,C006,Ananya Roy,Kolkata,West Bengal,P008,Keyboard,Electronics,2500,5,20,10000.0,Delivered
+ORD00090,2024-10-07,C008,Divya Nair,Bangalore,Karnataka,P003,Headphones,Electronics,3000,4,15,10200.0,Delivered
+ORD00091,2024-05-06,C005,Karan Mehta,Pune,Maharashtra,P009,Bookshelf,Furniture,5000,4,5,19000.0,Delivered
+ORD00092,2024-02-09,C005,Karan Mehta,Pune,Maharashtra,P004,Desk Chair,Furniture,8000,3,10,21600.0,Delivered
+ORD00093,2024-10-03,C002,Priya Patel,Ahmedabad,Gujarat,P003,Headphones,Electronics,3000,2,5,5700.0,Delivered
+ORD00094,2024-03-19,C004,Sneha Iyer,Chennai,Tamil Nadu,P002,Smartphone,Electronics,25000,4,15,85000.0,Delivered
+ORD00095,2024-08-26,C007,Vikram Singh,Jaipur,Rajasthan,P001,Laptop,Electronics,45000,2,15,76500.0,Delivered
+ORD00096,2024-10-26,C001,Aarav Sharma,Mumbai,Maharashtra,P010,Backpack,Accessories,1500,4,15,5100.0,Delivered
+ORD00097,2024-06-29,C005,Karan Mehta,Pune,Maharashtra,P007,Monitor,Electronics,18000,4,20,57600.0,Processing
+ORD00098,2024-10-06,C010,Meera Joshi,Bhopal,Madhya Pradesh,P004,Desk Chair,Furniture,8000,4,5,30400.0,Delivered
+ORD00099,2024-09-05,C001,Aarav Sharma,Mumbai,Maharashtra,P007,Monitor,Electronics,18000,3,15,45900.0,Processing
+ORD00100,2024-08-27,C003,Rohan Verma,Delhi,Delhi,P010,Backpack,Accessories,1500,5,0,7500.0,Cancelled
+ORD00101,2024-10-30,C010,Meera Joshi,Bhopal,Madhya Pradesh,P001,Laptop,Electronics,45000,1,15,38250.0,Delivered
+ORD00102,2024-08-24,C003,Rohan Verma,Delhi,Delhi,P001,Laptop,Electronics,45000,3,15,114750.0,Delivered
+ORD00103,2024-08-20,C006,Ananya Roy,Kolkata,West Bengal,P006,Pen Set,Stationery,200,4,10,720.0,Processing
+ORD00104,2024-08-03,C005,Karan Mehta,Pune,Maharashtra,P002,Smartphone,Electronics,25000,4,0,100000.0,Processing
+ORD00105,2024-01-27,C006,Ananya Roy,Kolkata,West Bengal,P004,Desk Chair,Furniture,8000,1,0,8000.0,Processing
+ORD00106,2024-05-06,C004,Sneha Iyer,Chennai,Tamil Nadu,P001,Laptop,Electronics,45000,5,5,213750.0,Delivered
+ORD00107,2024-08-30,C002,Priya Patel,Ahmedabad,Gujarat,P010,Backpack,Accessories,1500,2,15,2550.0,Shipped
+ORD00108,2024-07-07,C003,Rohan Verma,Delhi,Delhi,P010,Backpack,Accessories,1500,5,0,7500.0,Processing
+ORD00109,2024-03-24,C005,Karan Mehta,Pune,Maharashtra,P002,Smartphone,Electronics,25000,5,0,125000.0,Cancelled
+ORD00110,2024-10-21,C007,Vikram Singh,Jaipur,Rajasthan,P007,Monitor,Electronics,18000,2,0,36000.0,Shipped
+ORD00111,2024-11-17,C004,Sneha Iyer,Chennai,Tamil Nadu,P002,Smartphone,Electronics,25000,3,20,60000.0,Processing
+ORD00112,2024-10-16,C001,Aarav Sharma,Mumbai,Maharashtra,P006,Pen Set,Stationery,200,5,15,850.0,Shipped
+ORD00113,2024-02-05,C009,Arjun Gupta,Hyderabad,Telangana,P006,Pen Set,Stationery,200,1,15,170.0,Processing
+ORD00114,2024-02-24,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,4,5,760.0,Delivered
+ORD00115,2024-09-24,C005,Karan Mehta,Pune,Maharashtra,P010,Backpack,Accessories,1500,5,15,6375.0,Delivered
+ORD00116,2024-10-30,C005,Karan Mehta,Pune,Maharashtra,P006,Pen Set,Stationery,200,2,0,400.0,Delivered
+ORD00117,2024-08-18,C004,Sneha Iyer,Chennai,Tamil Nadu,P008,Keyboard,Electronics,2500,5,20,10000.0,Shipped
+ORD00118,2024-06-21,C001,Aarav Sharma,Mumbai,Maharashtra,P008,Keyboard,Electronics,2500,3,5,7125.0,Delivered
+ORD00119,2024-06-30,C005,Karan Mehta,Pune,Maharashtra,P006,Pen Set,Stationery,200,3,20,480.0,Processing
+ORD00120,2024-05-21,C009,Arjun Gupta,Hyderabad,Telangana,P001,Laptop,Electronics,45000,5,5,213750.0,Delivered
+ORD00121,2024-07-27,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,2,15,8500.0,Shipped
+ORD00122,2024-09-08,C008,Divya Nair,Bangalore,Karnataka,P001,Laptop,Electronics,45000,1,10,40500.0,Delivered
+ORD00123,2024-12-20,C004,Sneha Iyer,Chennai,Tamil Nadu,P005,Notebook,Stationery,150,5,10,675.0,Delivered
+ORD00124,2024-09-28,C006,Ananya Roy,Kolkata,West Bengal,P007,Monitor,Electronics,18000,5,10,81000.0,Delivered
+ORD00125,2024-08-20,C005,Karan Mehta,Pune,Maharashtra,P005,Notebook,Stationery,150,3,5,427.5,Delivered
+ORD00126,2024-04-08,C006,Ananya Roy,Kolkata,West Bengal,P002,Smartphone,Electronics,25000,5,5,118750.0,Delivered
+ORD00127,2024-09-04,C005,Karan Mehta,Pune,Maharashtra,P010,Backpack,Accessories,1500,5,20,6000.0,Delivered
+ORD00128,2024-02-21,C004,Sneha Iyer,Chennai,Tamil Nadu,P005,Notebook,Stationery,150,2,10,270.0,Delivered
+ORD00129,2024-01-08,C009,Arjun Gupta,Hyderabad,Telangana,P003,Headphones,Electronics,3000,3,0,9000.0,Returned
+ORD00130,2024-10-10,C005,Karan Mehta,Pune,Maharashtra,P003,Headphones,Electronics,3000,4,0,12000.0,Cancelled
+ORD00131,2024-10-20,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,4,15,8500.0,Delivered
+ORD00132,2024-01-27,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,1,0,2500.0,Delivered
+ORD00133,2024-02-07,C010,Meera Joshi,Bhopal,Madhya Pradesh,P001,Laptop,Electronics,45000,2,5,85500.0,Processing
+ORD00134,2024-06-04,C002,Priya Patel,Ahmedabad,Gujarat,P004,Desk Chair,Furniture,8000,1,20,6400.0,Processing
+ORD00135,2024-11-06,C010,Meera Joshi,Bhopal,Madhya Pradesh,P010,Backpack,Accessories,1500,2,20,2400.0,Delivered
+ORD00136,2024-08-14,C005,Karan Mehta,Pune,Maharashtra,P010,Backpack,Accessories,1500,4,10,5400.0,Shipped
+ORD00137,2024-01-31,C010,Meera Joshi,Bhopal,Madhya Pradesh,P002,Smartphone,Electronics,25000,2,5,47500.0,Delivered
+ORD00138,2024-02-11,C003,Rohan Verma,Delhi,Delhi,P004,Desk Chair,Furniture,8000,2,20,12800.0,Delivered
+ORD00139,2024-01-02,C007,Vikram Singh,Jaipur,Rajasthan,P008,Keyboard,Electronics,2500,5,15,10625.0,Delivered
+ORD00140,2024-04-28,C005,Karan Mehta,Pune,Maharashtra,P005,Notebook,Stationery,150,4,0,600.0,Shipped
+ORD00141,2024-05-15,C010,Meera Joshi,Bhopal,Madhya Pradesh,P004,Desk Chair,Furniture,8000,4,0,32000.0,Shipped
+ORD00142,2024-11-27,C003,Rohan Verma,Delhi,Delhi,P005,Notebook,Stationery,150,2,0,300.0,Delivered
+ORD00143,2024-06-06,C010,Meera Joshi,Bhopal,Madhya Pradesh,P010,Backpack,Accessories,1500,3,15,3825.0,Delivered
+ORD00144,2024-12-18,C005,Karan Mehta,Pune,Maharashtra,P007,Monitor,Electronics,18000,3,20,43200.0,Shipped
+ORD00145,2024-08-12,C002,Priya Patel,Ahmedabad,Gujarat,P010,Backpack,Accessories,1500,1,15,1275.0,Processing
+ORD00146,2024-11-05,C005,Karan Mehta,Pune,Maharashtra,P001,Laptop,Electronics,45000,1,5,42750.0,Returned
+ORD00147,2024-10-21,C010,Meera Joshi,Bhopal,Madhya Pradesh,P001,Laptop,Electronics,45000,3,20,108000.0,Delivered
+ORD00148,2024-03-30,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,4,10,18000.0,Delivered
+ORD00149,2024-10-26,C007,Vikram Singh,Jaipur,Rajasthan,P008,Keyboard,Electronics,2500,1,15,2125.0,Delivered
+ORD00150,2024-06-19,C006,Ananya Roy,Kolkata,West Bengal,P002,Smartphone,Electronics,25000,2,10,45000.0,Delivered
+ORD00151,2024-09-10,C005,Karan Mehta,Pune,Maharashtra,P007,Monitor,Electronics,18000,5,0,90000.0,Delivered
+ORD00152,2024-06-10,C005,Karan Mehta,Pune,Maharashtra,P006,Pen Set,Stationery,200,1,15,170.0,Cancelled
+ORD00153,2024-01-01,C009,Arjun Gupta,Hyderabad,Telangana,P008,Keyboard,Electronics,2500,4,0,10000.0,Delivered
+ORD00154,2024-07-04,C010,Meera Joshi,Bhopal,Madhya Pradesh,P008,Keyboard,Electronics,2500,4,0,10000.0,Delivered
+ORD00155,2024-10-08,C003,Rohan Verma,Delhi,Delhi,P005,Notebook,Stationery,150,4,15,510.0,Delivered
+ORD00156,2024-11-18,C010,Meera Joshi,Bhopal,Madhya Pradesh,P004,Desk Chair,Furniture,8000,2,10,14400.0,Shipped
+ORD00157,2024-10-09,C007,Vikram Singh,Jaipur,Rajasthan,P002,Smartphone,Electronics,25000,2,0,50000.0,Delivered
+ORD00158,2024-03-01,C003,Rohan Verma,Delhi,Delhi,P008,Keyboard,Electronics,2500,3,20,6000.0,Processing
+ORD00159,2024-07-31,C008,Divya Nair,Bangalore,Karnataka,P008,Keyboard,Electronics,2500,2,15,4250.0,Shipped
+ORD00160,2024-07-15,C004,Sneha Iyer,Chennai,Tamil Nadu,P010,Backpack,Accessories,1500,5,5,7125.0,Cancelled
+ORD00161,2024-05-21,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,5,10,900.0,Processing
+ORD00162,2024-05-24,C005,Karan Mehta,Pune,Maharashtra,P010,Backpack,Accessories,1500,5,15,6375.0,Cancelled
+ORD00163,2024-08-16,C009,Arjun Gupta,Hyderabad,Telangana,P008,Keyboard,Electronics,2500,3,10,6750.0,Shipped
+ORD00164,2024-10-05,C007,Vikram Singh,Jaipur,Rajasthan,P008,Keyboard,Electronics,2500,3,5,7125.0,Returned
+ORD00165,2024-05-02,C010,Meera Joshi,Bhopal,Madhya Pradesh,P007,Monitor,Electronics,18000,2,15,30600.0,Delivered
+ORD00166,2024-08-30,C007,Vikram Singh,Jaipur,Rajasthan,P007,Monitor,Electronics,18000,2,15,30600.0,Returned
+ORD00167,2024-03-05,C009,Arjun Gupta,Hyderabad,Telangana,P010,Backpack,Accessories,1500,3,0,4500.0,Cancelled
+ORD00168,2024-08-13,C002,Priya Patel,Ahmedabad,Gujarat,P009,Bookshelf,Furniture,5000,4,0,20000.0,Processing
+ORD00169,2024-07-28,C003,Rohan Verma,Delhi,Delhi,P002,Smartphone,Electronics,25000,4,10,90000.0,Delivered
+ORD00170,2024-12-20,C007,Vikram Singh,Jaipur,Rajasthan,P002,Smartphone,Electronics,25000,3,20,60000.0,Delivered
+ORD00171,2024-06-11,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,1,20,4000.0,Delivered
+ORD00172,2024-11-19,C005,Karan Mehta,Pune,Maharashtra,P004,Desk Chair,Furniture,8000,1,15,6800.0,Returned
+ORD00173,2024-11-20,C002,Priya Patel,Ahmedabad,Gujarat,P008,Keyboard,Electronics,2500,2,10,4500.0,Cancelled
+ORD00174,2024-01-24,C006,Ananya Roy,Kolkata,West Bengal,P001,Laptop,Electronics,45000,3,10,121500.0,Delivered
+ORD00175,2024-03-15,C004,Sneha Iyer,Chennai,Tamil Nadu,P009,Bookshelf,Furniture,5000,4,20,16000.0,Shipped
+ORD00176,2024-04-02,C003,Rohan Verma,Delhi,Delhi,P003,Headphones,Electronics,3000,1,20,2400.0,Cancelled
+ORD00177,2024-11-13,C004,Sneha Iyer,Chennai,Tamil Nadu,P008,Keyboard,Electronics,2500,5,5,11875.0,Delivered
+ORD00178,2024-11-22,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,3,0,7500.0,Cancelled
+ORD00179,2024-08-26,C005,Karan Mehta,Pune,Maharashtra,P009,Bookshelf,Furniture,5000,2,0,10000.0,Delivered
+ORD00180,2024-06-25,C010,Meera Joshi,Bhopal,Madhya Pradesh,P005,Notebook,Stationery,150,4,10,540.0,Delivered
+ORD00181,2024-06-03,C004,Sneha Iyer,Chennai,Tamil Nadu,P007,Monitor,Electronics,18000,4,0,72000.0,Delivered
+ORD00182,2024-10-19,C006,Ananya Roy,Kolkata,West Bengal,P010,Backpack,Accessories,1500,3,10,4050.0,Delivered
+ORD00183,2024-12-03,C007,Vikram Singh,Jaipur,Rajasthan,P005,Notebook,Stationery,150,1,20,120.0,Cancelled
+ORD00184,2024-01-26,C010,Meera Joshi,Bhopal,Madhya Pradesh,P008,Keyboard,Electronics,2500,3,5,7125.0,Shipped
+ORD00185,2024-06-29,C004,Sneha Iyer,Chennai,Tamil Nadu,P004,Desk Chair,Furniture,8000,5,10,36000.0,Shipped
+ORD00186,2024-12-03,C003,Rohan Verma,Delhi,Delhi,P002,Smartphone,Electronics,25000,1,10,22500.0,Processing
+ORD00187,2024-01-18,C010,Meera Joshi,Bhopal,Madhya Pradesh,P006,Pen Set,Stationery,200,2,0,400.0,Cancelled
+ORD00188,2024-06-16,C007,Vikram Singh,Jaipur,Rajasthan,P003,Headphones,Electronics,3000,2,5,5700.0,Processing
+ORD00189,2024-07-06,C009,Arjun Gupta,Hyderabad,Telangana,P009,Bookshelf,Furniture,5000,3,5,14250.0,Delivered
+ORD00190,2024-09-03,C005,Karan Mehta,Pune,Maharashtra,P006,Pen Set,Stationery,200,1,15,170.0,Returned
+ORD00191,2024-03-13,C004,Sneha Iyer,Chennai,Tamil Nadu,P007,Monitor,Electronics,18000,5,10,81000.0,Delivered
+ORD00192,2024-07-21,C001,Aarav Sharma,Mumbai,Maharashtra,P005,Notebook,Stationery,150,5,0,750.0,Delivered
+ORD00193,2024-12-10,C005,Karan Mehta,Pune,Maharashtra,P010,Backpack,Accessories,1500,4,10,5400.0,Delivered
+ORD00194,2024-04-29,C008,Divya Nair,Bangalore,Karnataka,P001,Laptop,Electronics,45000,5,20,180000.0,Delivered
+ORD00195,2024-11-08,C004,Sneha Iyer,Chennai,Tamil Nadu,P002,Smartphone,Electronics,25000,4,10,90000.0,Shipped
+ORD00196,2024-02-29,C003,Rohan Verma,Delhi,Delhi,P001,Laptop,Electronics,45000,1,10,40500.0,Returned
+ORD00197,2024-02-29,C002,Priya Patel,Ahmedabad,Gujarat,P004,Desk Chair,Furniture,8000,5,5,38000.0,Delivered
+ORD00198,2024-07-08,C009,Arjun Gupta,Hyderabad,Telangana,P007,Monitor,Electronics,18000,5,5,85500.0,Cancelled
+ORD00199,2024-12-01,C002,Priya Patel,Ahmedabad,Gujarat,P008,Keyboard,Electronics,2500,5,15,10625.0,Cancelled
+ORD00200,2024-05-23,C001,Aarav Sharma,Mumbai,Maharashtra,P006,Pen Set,Stationery,200,2,15,340.0,Delivered
+ORD00201,2024-04-30,C006,Ananya Roy,Kolkata,West Bengal,P002,Smartphone,Electronics,25000,3,20,60000.0,Cancelled
+ORD00202,2024-11-26,C006,Ananya Roy,Kolkata,West Bengal,P001,Laptop,Electronics,45000,4,10,162000.0,Delivered
+ORD00203,2024-03-03,C008,Divya Nair,Bangalore,Karnataka,P002,Smartphone,Electronics,25000,2,20,40000.0,Returned
+ORD00204,2024-01-26,C006,Ananya Roy,Kolkata,West Bengal,P004,Desk Chair,Furniture,8000,2,20,12800.0,Delivered
+ORD00205,2024-10-10,C004,Sneha Iyer,Chennai,Tamil Nadu,P010,Backpack,Accessories,1500,2,5,2850.0,Delivered
+ORD00206,2024-03-16,C010,Meera Joshi,Bhopal,Madhya Pradesh,P001,Laptop,Electronics,45000,3,5,128250.0,Returned
+ORD00207,2024-10-03,C005,Karan Mehta,Pune,Maharashtra,P003,Headphones,Electronics,3000,1,0,3000.0,Delivered
+ORD00208,2024-07-02,C004,Sneha Iyer,Chennai,Tamil Nadu,P010,Backpack,Accessories,1500,3,0,4500.0,Delivered
+ORD00209,2024-01-27,C003,Rohan Verma,Delhi,Delhi,P007,Monitor,Electronics,18000,5,0,90000.0,Processing
+ORD00210,2024-08-31,C008,Divya Nair,Bangalore,Karnataka,P006,Pen Set,Stationery,200,5,20,800.0,Delivered
+ORD00211,2024-09-14,C004,Sneha Iyer,Chennai,Tamil Nadu,P010,Backpack,Accessories,1500,1,20,1200.0,Delivered
+ORD00212,2024-11-25,C001,Aarav Sharma,Mumbai,Maharashtra,P001,Laptop,Electronics,45000,4,15,153000.0,Delivered
+ORD00213,2024-02-25,C008,Divya Nair,Bangalore,Karnataka,P008,Keyboard,Electronics,2500,1,0,2500.0,Delivered
+ORD00214,2024-03-16,C002,Priya Patel,Ahmedabad,Gujarat,P003,Headphones,Electronics,3000,3,20,7200.0,Shipped
+ORD00215,2024-10-07,C006,Ananya Roy,Kolkata,West Bengal,P007,Monitor,Electronics,18000,5,20,72000.0,Delivered
+ORD00216,2024-09-15,C010,Meera Joshi,Bhopal,Madhya Pradesh,P007,Monitor,Electronics,18000,1,0,18000.0,Cancelled
+ORD00217,2024-11-29,C009,Arjun Gupta,Hyderabad,Telangana,P004,Desk Chair,Furniture,8000,4,15,27200.0,Cancelled
+ORD00218,2024-07-30,C006,Ananya Roy,Kolkata,West Bengal,P008,Keyboard,Electronics,2500,4,15,8500.0,Processing
+ORD00219,2024-06-09,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,3,10,540.0,Returned
+ORD00220,2024-12-17,C008,Divya Nair,Bangalore,Karnataka,P002,Smartphone,Electronics,25000,1,0,25000.0,Delivered
+ORD00221,2024-02-19,C006,Ananya Roy,Kolkata,West Bengal,P003,Headphones,Electronics,3000,5,0,15000.0,Shipped
+ORD00222,2024-10-14,C009,Arjun Gupta,Hyderabad,Telangana,P006,Pen Set,Stationery,200,1,15,170.0,Delivered
+ORD00223,2024-12-06,C007,Vikram Singh,Jaipur,Rajasthan,P001,Laptop,Electronics,45000,3,20,108000.0,Delivered
+ORD00224,2024-02-23,C010,Meera Joshi,Bhopal,Madhya Pradesh,P009,Bookshelf,Furniture,5000,2,5,9500.0,Shipped
+ORD00225,2024-04-24,C002,Priya Patel,Ahmedabad,Gujarat,P006,Pen Set,Stationery,200,5,10,900.0,Delivered
+ORD00226,2024-05-22,C010,Meera Joshi,Bhopal,Madhya Pradesh,P004,Desk Chair,Furniture,8000,4,20,25600.0,Returned
+ORD00227,2024-11-14,C010,Meera Joshi,Bhopal,Madhya Pradesh,P009,Bookshelf,Furniture,5000,1,20,4000.0,Cancelled
+ORD00228,2024-12-21,C005,Karan Mehta,Pune,Maharashtra,P001,Laptop,Electronics,45000,2,10,81000.0,Processing
+ORD00229,2024-06-07,C006,Ananya Roy,Kolkata,West Bengal,P006,Pen Set,Stationery,200,1,5,190.0,Cancelled
+ORD00230,2024-10-16,C007,Vikram Singh,Jaipur,Rajasthan,P002,Smartphone,Electronics,25000,2,0,50000.0,Delivered
+ORD00231,2024-09-28,C004,Sneha Iyer,Chennai,Tamil Nadu,P007,Monitor,Electronics,18000,4,15,61200.0,Delivered
+ORD00232,2024-07-08,C005,Karan Mehta,Pune,Maharashtra,P006,Pen Set,Stationery,200,5,20,800.0,Delivered
+ORD00233,2024-01-27,C003,Rohan Verma,Delhi,Delhi,P003,Headphones,Electronics,3000,5,0,15000.0,Shipped
+ORD00234,2024-05-19,C008,Divya Nair,Bangalore,Karnataka,P007,Monitor,Electronics,18000,4,20,57600.0,Delivered
+ORD00235,2024-05-19,C004,Sneha Iyer,Chennai,Tamil Nadu,P009,Bookshelf,Furniture,5000,1,10,4500.0,Delivered
+ORD00236,2024-05-25,C010,Meera Joshi,Bhopal,Madhya Pradesh,P008,Keyboard,Electronics,2500,5,10,11250.0,Delivered
+ORD00237,2024-07-21,C010,Meera Joshi,Bhopal,Madhya Pradesh,P001,Laptop,Electronics,45000,1,5,42750.0,Delivered
+ORD00238,2024-04-18,C003,Rohan Verma,Delhi,Delhi,P005,Notebook,Stationery,150,3,10,405.0,Delivered
+ORD00239,2024-09-11,C007,Vikram Singh,Jaipur,Rajasthan,P003,Headphones,Electronics,3000,2,15,5100.0,Shipped
+ORD00240,2024-04-27,C009,Arjun Gupta,Hyderabad,Telangana,P009,Bookshelf,Furniture,5000,3,0,15000.0,Delivered
+ORD00241,2024-01-22,C007,Vikram Singh,Jaipur,Rajasthan,P001,Laptop,Electronics,45000,4,0,180000.0,Cancelled
+ORD00242,2024-10-21,C007,Vikram Singh,Jaipur,Rajasthan,P010,Backpack,Accessories,1500,4,15,5100.0,Delivered
+ORD00243,2024-07-26,C001,Aarav Sharma,Mumbai,Maharashtra,P006,Pen Set,Stationery,200,2,20,320.0,Delivered
+ORD00244,2024-12-19,C006,Ananya Roy,Kolkata,West Bengal,P002,Smartphone,Electronics,25000,4,0,100000.0,Delivered
+ORD00245,2024-10-28,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,1,15,4250.0,Cancelled
+ORD00246,2024-06-22,C004,Sneha Iyer,Chennai,Tamil Nadu,P006,Pen Set,Stationery,200,2,0,400.0,Shipped
+ORD00247,2024-02-28,C009,Arjun Gupta,Hyderabad,Telangana,P009,Bookshelf,Furniture,5000,2,10,9000.0,Delivered
+ORD00248,2024-11-26,C003,Rohan Verma,Delhi,Delhi,P004,Desk Chair,Furniture,8000,1,5,7600.0,Delivered
+ORD00249,2024-03-29,C010,Meera Joshi,Bhopal,Madhya Pradesh,P003,Headphones,Electronics,3000,1,5,2850.0,Returned
+ORD00250,2024-11-17,C008,Divya Nair,Bangalore,Karnataka,P008,Keyboard,Electronics,2500,5,20,10000.0,Delivered
+ORD00251,2024-10-16,C010,Meera Joshi,Bhopal,Madhya Pradesh,P006,Pen Set,Stationery,200,3,5,570.0,Delivered
+ORD00252,2024-08-28,C008,Divya Nair,Bangalore,Karnataka,P005,Notebook,Stationery,150,3,20,360.0,Delivered
+ORD00253,2024-09-16,C002,Priya Patel,Ahmedabad,Gujarat,P005,Notebook,Stationery,150,4,15,510.0,Delivered
+ORD00254,2024-07-07,C005,Karan Mehta,Pune,Maharashtra,P002,Smartphone,Electronics,25000,1,20,20000.0,Shipped
+ORD00255,2024-07-15,C008,Divya Nair,Bangalore,Karnataka,P010,Backpack,Accessories,1500,5,0,7500.0,Delivered
+ORD00256,2024-10-19,C004,Sneha Iyer,Chennai,Tamil Nadu,P006,Pen Set,Stationery,200,5,15,850.0,Shipped
+ORD00257,2024-02-01,C008,Divya Nair,Bangalore,Karnataka,P002,Smartphone,Electronics,25000,3,0,75000.0,Shipped
+ORD00258,2024-03-29,C001,Aarav Sharma,Mumbai,Maharashtra,P004,Desk Chair,Furniture,8000,4,15,27200.0,Shipped
+ORD00259,2024-11-08,C003,Rohan Verma,Delhi,Delhi,P006,Pen Set,Stationery,200,3,10,540.0,Delivered
+ORD00260,2024-06-22,C010,Meera Joshi,Bhopal,Madhya Pradesh,P001,Laptop,Electronics,45000,3,0,135000.0,Delivered
+ORD00261,2024-10-12,C007,Vikram Singh,Jaipur,Rajasthan,P005,Notebook,Stationery,150,3,20,360.0,Cancelled
+ORD00262,2024-06-19,C002,Priya Patel,Ahmedabad,Gujarat,P010,Backpack,Accessories,1500,2,10,2700.0,Delivered
+ORD00263,2024-12-01,C007,Vikram Singh,Jaipur,Rajasthan,P003,Headphones,Electronics,3000,5,0,15000.0,Delivered
+ORD00264,2024-07-11,C006,Ananya Roy,Kolkata,West Bengal,P003,Headphones,Electronics,3000,5,0,15000.0,Shipped
+ORD00265,2024-08-04,C009,Arjun Gupta,Hyderabad,Telangana,P006,Pen Set,Stationery,200,1,10,180.0,Delivered
+ORD00266,2024-04-19,C006,Ananya Roy,Kolkata,West Bengal,P008,Keyboard,Electronics,2500,2,5,4750.0,Returned
+ORD00267,2024-03-20,C002,Priya Patel,Ahmedabad,Gujarat,P005,Notebook,Stationery,150,1,20,120.0,Processing
+ORD00268,2024-09-26,C001,Aarav Sharma,Mumbai,Maharashtra,P006,Pen Set,Stationery,200,5,5,950.0,Shipped
+ORD00269,2024-03-19,C003,Rohan Verma,Delhi,Delhi,P003,Headphones,Electronics,3000,5,5,14250.0,Processing
+ORD00270,2024-01-23,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,2,15,340.0,Shipped
+ORD00271,2024-08-17,C004,Sneha Iyer,Chennai,Tamil Nadu,P009,Bookshelf,Furniture,5000,2,10,9000.0,Returned
+ORD00272,2024-08-28,C004,Sneha Iyer,Chennai,Tamil Nadu,P006,Pen Set,Stationery,200,5,15,850.0,Delivered
+ORD00273,2024-05-24,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,5,15,21250.0,Returned
+ORD00274,2024-04-12,C010,Meera Joshi,Bhopal,Madhya Pradesh,P003,Headphones,Electronics,3000,3,0,9000.0,Shipped
+ORD00275,2024-07-09,C009,Arjun Gupta,Hyderabad,Telangana,P002,Smartphone,Electronics,25000,5,0,125000.0,Delivered
+ORD00276,2024-03-23,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,5,5,11875.0,Processing
+ORD00277,2024-02-16,C004,Sneha Iyer,Chennai,Tamil Nadu,P008,Keyboard,Electronics,2500,3,0,7500.0,Delivered
+ORD00278,2024-07-21,C009,Arjun Gupta,Hyderabad,Telangana,P006,Pen Set,Stationery,200,2,15,340.0,Returned
+ORD00279,2024-07-10,C004,Sneha Iyer,Chennai,Tamil Nadu,P001,Laptop,Electronics,45000,3,0,135000.0,Processing
+ORD00280,2024-11-28,C006,Ananya Roy,Kolkata,West Bengal,P003,Headphones,Electronics,3000,2,0,6000.0,Delivered
+ORD00281,2024-08-29,C003,Rohan Verma,Delhi,Delhi,P008,Keyboard,Electronics,2500,4,20,8000.0,Delivered
+ORD00282,2024-02-10,C001,Aarav Sharma,Mumbai,Maharashtra,P005,Notebook,Stationery,150,2,5,285.0,Shipped
+ORD00283,2024-11-07,C009,Arjun Gupta,Hyderabad,Telangana,P007,Monitor,Electronics,18000,1,10,16200.0,Delivered
+ORD00284,2024-03-03,C001,Aarav Sharma,Mumbai,Maharashtra,P004,Desk Chair,Furniture,8000,4,20,25600.0,Delivered
+ORD00285,2024-02-26,C008,Divya Nair,Bangalore,Karnataka,P010,Backpack,Accessories,1500,5,0,7500.0,Shipped
+ORD00286,2024-10-21,C004,Sneha Iyer,Chennai,Tamil Nadu,P003,Headphones,Electronics,3000,3,15,7650.0,Delivered
+ORD00287,2024-06-29,C004,Sneha Iyer,Chennai,Tamil Nadu,P010,Backpack,Accessories,1500,4,5,5700.0,Shipped
+ORD00288,2024-02-13,C009,Arjun Gupta,Hyderabad,Telangana,P006,Pen Set,Stationery,200,1,20,160.0,Shipped
+ORD00289,2024-09-16,C009,Arjun Gupta,Hyderabad,Telangana,P001,Laptop,Electronics,45000,4,15,153000.0,Delivered
+ORD00290,2024-07-17,C006,Ananya Roy,Kolkata,West Bengal,P005,Notebook,Stationery,150,1,10,135.0,Processing
+ORD00291,2024-06-25,C004,Sneha Iyer,Chennai,Tamil Nadu,P002,Smartphone,Electronics,25000,5,10,112500.0,Delivered
+ORD00292,2024-06-29,C009,Arjun Gupta,Hyderabad,Telangana,P006,Pen Set,Stationery,200,2,15,340.0,Returned
+ORD00293,2024-09-02,C003,Rohan Verma,Delhi,Delhi,P003,Headphones,Electronics,3000,1,15,2550.0,Delivered
+ORD00294,2024-04-13,C001,Aarav Sharma,Mumbai,Maharashtra,P004,Desk Chair,Furniture,8000,1,10,7200.0,Cancelled
+ORD00295,2024-09-20,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,4,10,18000.0,Delivered
+ORD00296,2024-11-27,C004,Sneha Iyer,Chennai,Tamil Nadu,P005,Notebook,Stationery,150,3,0,450.0,Cancelled
+ORD00297,2024-06-18,C005,Karan Mehta,Pune,Maharashtra,P002,Smartphone,Electronics,25000,3,15,63750.0,Cancelled
+ORD00298,2024-08-13,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,2,15,340.0,Shipped
+ORD00299,2024-07-07,C009,Arjun Gupta,Hyderabad,Telangana,P005,Notebook,Stationery,150,1,15,127.5,Delivered
+ORD00300,2024-11-04,C003,Rohan Verma,Delhi,Delhi,P009,Bookshelf,Furniture,5000,3,10,13500.0,Delivered
+ORD00301,2024-06-16,C005,Karan Mehta,Pune,Maharashtra,P005,Notebook,Stationery,150,4,20,480.0,Processing
+ORD00302,2024-03-26,C008,Divya Nair,Bangalore,Karnataka,P006,Pen Set,Stationery,200,4,0,800.0,Processing
+ORD00303,2024-06-29,C010,Meera Joshi,Bhopal,Madhya Pradesh,P007,Monitor,Electronics,18000,3,0,54000.0,Delivered
+ORD00304,2024-11-22,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,5,5,950.0,Returned
+ORD00305,2024-03-14,C010,Meera Joshi,Bhopal,Madhya Pradesh,P008,Keyboard,Electronics,2500,1,5,2375.0,Delivered
+ORD00306,2024-11-26,C006,Ananya Roy,Kolkata,West Bengal,P006,Pen Set,Stationery,200,4,20,640.0,Delivered
+ORD00307,2024-03-19,C008,Divya Nair,Bangalore,Karnataka,P006,Pen Set,Stationery,200,3,15,510.0,Processing
+ORD00308,2024-10-20,C003,Rohan Verma,Delhi,Delhi,P009,Bookshelf,Furniture,5000,3,15,12750.0,Delivered
+ORD00309,2024-05-22,C004,Sneha Iyer,Chennai,Tamil Nadu,P002,Smartphone,Electronics,25000,1,5,23750.0,Delivered
+ORD00310,2024-07-17,C009,Arjun Gupta,Hyderabad,Telangana,P002,Smartphone,Electronics,25000,3,10,67500.0,Processing
+ORD00311,2024-04-19,C010,Meera Joshi,Bhopal,Madhya Pradesh,P005,Notebook,Stationery,150,4,5,570.0,Delivered
+ORD00312,2024-02-07,C008,Divya Nair,Bangalore,Karnataka,P003,Headphones,Electronics,3000,4,0,12000.0,Processing
+ORD00313,2024-06-12,C006,Ananya Roy,Kolkata,West Bengal,P002,Smartphone,Electronics,25000,5,20,100000.0,Delivered
+ORD00314,2024-06-02,C003,Rohan Verma,Delhi,Delhi,P003,Headphones,Electronics,3000,3,20,7200.0,Delivered
+ORD00315,2024-04-12,C003,Rohan Verma,Delhi,Delhi,P004,Desk Chair,Furniture,8000,4,0,32000.0,Delivered
+ORD00316,2024-10-20,C006,Ananya Roy,Kolkata,West Bengal,P008,Keyboard,Electronics,2500,5,5,11875.0,Shipped
+ORD00317,2024-02-14,C002,Priya Patel,Ahmedabad,Gujarat,P005,Notebook,Stationery,150,4,15,510.0,Shipped
+ORD00318,2024-07-28,C010,Meera Joshi,Bhopal,Madhya Pradesh,P002,Smartphone,Electronics,25000,2,10,45000.0,Shipped
+ORD00319,2024-08-18,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,3,5,14250.0,Cancelled
+ORD00320,2024-10-09,C010,Meera Joshi,Bhopal,Madhya Pradesh,P003,Headphones,Electronics,3000,2,15,5100.0,Shipped
+ORD00321,2024-01-29,C002,Priya Patel,Ahmedabad,Gujarat,P009,Bookshelf,Furniture,5000,2,10,9000.0,Delivered
+ORD00322,2024-06-14,C004,Sneha Iyer,Chennai,Tamil Nadu,P006,Pen Set,Stationery,200,5,10,900.0,Processing
+ORD00323,2024-05-08,C004,Sneha Iyer,Chennai,Tamil Nadu,P009,Bookshelf,Furniture,5000,3,5,14250.0,Shipped
+ORD00324,2024-11-10,C009,Arjun Gupta,Hyderabad,Telangana,P002,Smartphone,Electronics,25000,5,5,118750.0,Shipped
+ORD00325,2024-10-24,C003,Rohan Verma,Delhi,Delhi,P003,Headphones,Electronics,3000,5,20,12000.0,Delivered
+ORD00326,2024-10-15,C001,Aarav Sharma,Mumbai,Maharashtra,P001,Laptop,Electronics,45000,1,0,45000.0,Cancelled
+ORD00327,2024-10-22,C005,Karan Mehta,Pune,Maharashtra,P004,Desk Chair,Furniture,8000,5,15,34000.0,Shipped
+ORD00328,2024-01-16,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,3,10,13500.0,Delivered
+ORD00329,2024-12-16,C007,Vikram Singh,Jaipur,Rajasthan,P005,Notebook,Stationery,150,4,0,600.0,Shipped
+ORD00330,2024-03-21,C008,Divya Nair,Bangalore,Karnataka,P007,Monitor,Electronics,18000,4,15,61200.0,Delivered
+ORD00331,2024-11-06,C003,Rohan Verma,Delhi,Delhi,P006,Pen Set,Stationery,200,3,10,540.0,Returned
+ORD00332,2024-03-07,C006,Ananya Roy,Kolkata,West Bengal,P009,Bookshelf,Furniture,5000,5,0,25000.0,Delivered
+ORD00333,2024-08-26,C002,Priya Patel,Ahmedabad,Gujarat,P005,Notebook,Stationery,150,4,5,570.0,Delivered
+ORD00334,2024-01-26,C005,Karan Mehta,Pune,Maharashtra,P007,Monitor,Electronics,18000,5,15,76500.0,Delivered
+ORD00335,2024-03-22,C006,Ananya Roy,Kolkata,West Bengal,P010,Backpack,Accessories,1500,3,5,4275.0,Processing
+ORD00336,2024-09-12,C009,Arjun Gupta,Hyderabad,Telangana,P008,Keyboard,Electronics,2500,4,10,9000.0,Delivered
+ORD00337,2024-02-16,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,4,5,19000.0,Delivered
+ORD00338,2024-06-29,C001,Aarav Sharma,Mumbai,Maharashtra,P001,Laptop,Electronics,45000,3,15,114750.0,Shipped
+ORD00339,2024-11-30,C008,Divya Nair,Bangalore,Karnataka,P005,Notebook,Stationery,150,5,0,750.0,Processing
+ORD00340,2024-08-08,C003,Rohan Verma,Delhi,Delhi,P005,Notebook,Stationery,150,3,15,382.5,Delivered
+ORD00341,2024-07-24,C001,Aarav Sharma,Mumbai,Maharashtra,P010,Backpack,Accessories,1500,5,5,7125.0,Delivered
+ORD00342,2024-05-27,C002,Priya Patel,Ahmedabad,Gujarat,P007,Monitor,Electronics,18000,5,15,76500.0,Processing
+ORD00343,2024-05-23,C010,Meera Joshi,Bhopal,Madhya Pradesh,P010,Backpack,Accessories,1500,1,5,1425.0,Returned
+ORD00344,2024-07-20,C006,Ananya Roy,Kolkata,West Bengal,P006,Pen Set,Stationery,200,5,10,900.0,Processing
+ORD00345,2024-04-11,C010,Meera Joshi,Bhopal,Madhya Pradesh,P009,Bookshelf,Furniture,5000,4,20,16000.0,Delivered
+ORD00346,2024-01-20,C003,Rohan Verma,Delhi,Delhi,P006,Pen Set,Stationery,200,4,20,640.0,Delivered
+ORD00347,2024-11-06,C009,Arjun Gupta,Hyderabad,Telangana,P003,Headphones,Electronics,3000,3,20,7200.0,Delivered
+ORD00348,2024-07-20,C010,Meera Joshi,Bhopal,Madhya Pradesh,P005,Notebook,Stationery,150,5,10,675.0,Shipped
+ORD00349,2024-09-17,C009,Arjun Gupta,Hyderabad,Telangana,P008,Keyboard,Electronics,2500,5,10,11250.0,Delivered
+ORD00350,2024-01-09,C006,Ananya Roy,Kolkata,West Bengal,P006,Pen Set,Stationery,200,1,15,170.0,Shipped
+ORD00351,2024-12-18,C001,Aarav Sharma,Mumbai,Maharashtra,P010,Backpack,Accessories,1500,4,10,5400.0,Returned
+ORD00352,2024-10-23,C010,Meera Joshi,Bhopal,Madhya Pradesh,P004,Desk Chair,Furniture,8000,1,20,6400.0,Delivered
+ORD00353,2024-09-25,C010,Meera Joshi,Bhopal,Madhya Pradesh,P007,Monitor,Electronics,18000,2,5,34200.0,Delivered
+ORD00354,2024-12-24,C002,Priya Patel,Ahmedabad,Gujarat,P004,Desk Chair,Furniture,8000,1,15,6800.0,Delivered
+ORD00355,2024-03-18,C007,Vikram Singh,Jaipur,Rajasthan,P004,Desk Chair,Furniture,8000,4,20,25600.0,Processing
+ORD00356,2024-08-29,C001,Aarav Sharma,Mumbai,Maharashtra,P003,Headphones,Electronics,3000,5,5,14250.0,Shipped
+ORD00357,2024-12-05,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,4,10,18000.0,Returned
+ORD00358,2024-08-23,C009,Arjun Gupta,Hyderabad,Telangana,P006,Pen Set,Stationery,200,5,10,900.0,Shipped
+ORD00359,2024-12-14,C005,Karan Mehta,Pune,Maharashtra,P010,Backpack,Accessories,1500,4,5,5700.0,Returned
+ORD00360,2024-05-22,C009,Arjun Gupta,Hyderabad,Telangana,P005,Notebook,Stationery,150,2,10,270.0,Processing
+ORD00361,2024-12-26,C004,Sneha Iyer,Chennai,Tamil Nadu,P008,Keyboard,Electronics,2500,3,15,6375.0,Delivered
+ORD00362,2024-05-20,C005,Karan Mehta,Pune,Maharashtra,P002,Smartphone,Electronics,25000,5,20,100000.0,Delivered
+ORD00363,2024-07-21,C006,Ananya Roy,Kolkata,West Bengal,P003,Headphones,Electronics,3000,3,0,9000.0,Delivered
+ORD00364,2024-12-31,C002,Priya Patel,Ahmedabad,Gujarat,P006,Pen Set,Stationery,200,4,10,720.0,Processing
+ORD00365,2024-04-19,C004,Sneha Iyer,Chennai,Tamil Nadu,P009,Bookshelf,Furniture,5000,3,20,12000.0,Shipped
+ORD00366,2024-03-11,C002,Priya Patel,Ahmedabad,Gujarat,P010,Backpack,Accessories,1500,5,5,7125.0,Delivered
+ORD00367,2024-12-08,C009,Arjun Gupta,Hyderabad,Telangana,P004,Desk Chair,Furniture,8000,2,0,16000.0,Delivered
+ORD00368,2024-06-18,C008,Divya Nair,Bangalore,Karnataka,P002,Smartphone,Electronics,25000,2,0,50000.0,Returned
+ORD00369,2024-03-21,C007,Vikram Singh,Jaipur,Rajasthan,P008,Keyboard,Electronics,2500,4,5,9500.0,Processing
+ORD00370,2024-05-27,C006,Ananya Roy,Kolkata,West Bengal,P005,Notebook,Stationery,150,1,0,150.0,Shipped
+ORD00371,2024-04-28,C009,Arjun Gupta,Hyderabad,Telangana,P001,Laptop,Electronics,45000,2,15,76500.0,Cancelled
+ORD00372,2024-03-31,C001,Aarav Sharma,Mumbai,Maharashtra,P007,Monitor,Electronics,18000,4,5,68400.0,Cancelled
+ORD00373,2024-05-28,C001,Aarav Sharma,Mumbai,Maharashtra,P001,Laptop,Electronics,45000,3,20,108000.0,Shipped
+ORD00374,2024-06-20,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,5,20,10000.0,Delivered
+ORD00375,2024-03-09,C009,Arjun Gupta,Hyderabad,Telangana,P008,Keyboard,Electronics,2500,3,5,7125.0,Processing
+ORD00376,2024-06-18,C003,Rohan Verma,Delhi,Delhi,P008,Keyboard,Electronics,2500,3,5,7125.0,Delivered
+ORD00377,2024-06-21,C005,Karan Mehta,Pune,Maharashtra,P010,Backpack,Accessories,1500,2,5,2850.0,Shipped
+ORD00378,2024-11-23,C007,Vikram Singh,Jaipur,Rajasthan,P007,Monitor,Electronics,18000,5,10,81000.0,Delivered
+ORD00379,2024-12-08,C002,Priya Patel,Ahmedabad,Gujarat,P003,Headphones,Electronics,3000,2,15,5100.0,Delivered
+ORD00380,2024-05-07,C001,Aarav Sharma,Mumbai,Maharashtra,P005,Notebook,Stationery,150,4,5,570.0,Delivered
+ORD00381,2024-05-16,C006,Ananya Roy,Kolkata,West Bengal,P005,Notebook,Stationery,150,5,20,600.0,Delivered
+ORD00382,2024-11-30,C006,Ananya Roy,Kolkata,West Bengal,P004,Desk Chair,Furniture,8000,1,0,8000.0,Delivered
+ORD00383,2024-03-22,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,3,0,15000.0,Shipped
+ORD00384,2024-05-31,C006,Ananya Roy,Kolkata,West Bengal,P010,Backpack,Accessories,1500,2,5,2850.0,Returned
+ORD00385,2024-09-01,C003,Rohan Verma,Delhi,Delhi,P008,Keyboard,Electronics,2500,5,10,11250.0,Delivered
+ORD00386,2024-10-08,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,2,5,9500.0,Shipped
+ORD00387,2024-11-01,C002,Priya Patel,Ahmedabad,Gujarat,P009,Bookshelf,Furniture,5000,4,20,16000.0,Processing
+ORD00388,2024-02-09,C010,Meera Joshi,Bhopal,Madhya Pradesh,P002,Smartphone,Electronics,25000,1,20,20000.0,Cancelled
+ORD00389,2024-04-13,C010,Meera Joshi,Bhopal,Madhya Pradesh,P009,Bookshelf,Furniture,5000,2,5,9500.0,Delivered
+ORD00390,2024-09-23,C008,Divya Nair,Bangalore,Karnataka,P002,Smartphone,Electronics,25000,2,20,40000.0,Delivered
+ORD00391,2024-09-18,C008,Divya Nair,Bangalore,Karnataka,P001,Laptop,Electronics,45000,4,5,171000.0,Shipped
+ORD00392,2024-08-21,C010,Meera Joshi,Bhopal,Madhya Pradesh,P001,Laptop,Electronics,45000,5,15,191250.0,Shipped
+ORD00393,2024-06-06,C001,Aarav Sharma,Mumbai,Maharashtra,P007,Monitor,Electronics,18000,3,0,54000.0,Processing
+ORD00394,2024-10-23,C002,Priya Patel,Ahmedabad,Gujarat,P001,Laptop,Electronics,45000,4,10,162000.0,Processing
+ORD00395,2024-10-04,C001,Aarav Sharma,Mumbai,Maharashtra,P002,Smartphone,Electronics,25000,4,0,100000.0,Delivered
+ORD00396,2024-04-02,C003,Rohan Verma,Delhi,Delhi,P007,Monitor,Electronics,18000,3,15,45900.0,Delivered
+ORD00397,2024-07-12,C007,Vikram Singh,Jaipur,Rajasthan,P002,Smartphone,Electronics,25000,5,5,118750.0,Shipped
+ORD00398,2024-06-27,C002,Priya Patel,Ahmedabad,Gujarat,P003,Headphones,Electronics,3000,5,15,12750.0,Shipped
+ORD00399,2024-04-24,C001,Aarav Sharma,Mumbai,Maharashtra,P001,Laptop,Electronics,45000,3,15,114750.0,Shipped
+ORD00400,2024-10-05,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,4,5,19000.0,Delivered
+ORD00401,2024-06-26,C003,Rohan Verma,Delhi,Delhi,P005,Notebook,Stationery,150,2,0,300.0,Delivered
+ORD00402,2024-12-04,C007,Vikram Singh,Jaipur,Rajasthan,P010,Backpack,Accessories,1500,1,5,1425.0,Delivered
+ORD00403,2024-02-21,C010,Meera Joshi,Bhopal,Madhya Pradesh,P001,Laptop,Electronics,45000,4,20,144000.0,Shipped
+ORD00404,2024-01-25,C004,Sneha Iyer,Chennai,Tamil Nadu,P001,Laptop,Electronics,45000,4,15,153000.0,Delivered
+ORD00405,2024-04-21,C001,Aarav Sharma,Mumbai,Maharashtra,P003,Headphones,Electronics,3000,5,10,13500.0,Delivered
+ORD00406,2024-10-21,C006,Ananya Roy,Kolkata,West Bengal,P010,Backpack,Accessories,1500,5,10,6750.0,Delivered
+ORD00407,2024-03-14,C009,Arjun Gupta,Hyderabad,Telangana,P004,Desk Chair,Furniture,8000,4,10,28800.0,Delivered
+ORD00408,2024-10-12,C010,Meera Joshi,Bhopal,Madhya Pradesh,P003,Headphones,Electronics,3000,4,20,9600.0,Delivered
+ORD00409,2024-06-25,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,3,15,12750.0,Delivered
+ORD00410,2024-06-02,C007,Vikram Singh,Jaipur,Rajasthan,P003,Headphones,Electronics,3000,5,15,12750.0,Delivered
+ORD00411,2024-04-25,C005,Karan Mehta,Pune,Maharashtra,P003,Headphones,Electronics,3000,4,0,12000.0,Shipped
+ORD00412,2024-08-01,C009,Arjun Gupta,Hyderabad,Telangana,P009,Bookshelf,Furniture,5000,2,15,8500.0,Delivered
+ORD00413,2024-04-14,C006,Ananya Roy,Kolkata,West Bengal,P002,Smartphone,Electronics,25000,4,10,90000.0,Delivered
+ORD00414,2024-04-07,C001,Aarav Sharma,Mumbai,Maharashtra,P005,Notebook,Stationery,150,4,20,480.0,Shipped
+ORD00415,2024-02-07,C004,Sneha Iyer,Chennai,Tamil Nadu,P010,Backpack,Accessories,1500,5,5,7125.0,Delivered
+ORD00416,2024-06-19,C005,Karan Mehta,Pune,Maharashtra,P001,Laptop,Electronics,45000,2,5,85500.0,Returned
+ORD00417,2024-03-01,C008,Divya Nair,Bangalore,Karnataka,P004,Desk Chair,Furniture,8000,5,5,38000.0,Delivered
+ORD00418,2024-05-02,C009,Arjun Gupta,Hyderabad,Telangana,P006,Pen Set,Stationery,200,3,15,510.0,Delivered
+ORD00419,2024-11-28,C006,Ananya Roy,Kolkata,West Bengal,P005,Notebook,Stationery,150,3,10,405.0,Shipped
+ORD00420,2024-09-11,C008,Divya Nair,Bangalore,Karnataka,P002,Smartphone,Electronics,25000,4,10,90000.0,Cancelled
+ORD00421,2024-07-08,C006,Ananya Roy,Kolkata,West Bengal,P007,Monitor,Electronics,18000,1,20,14400.0,Cancelled
+ORD00422,2024-03-15,C001,Aarav Sharma,Mumbai,Maharashtra,P005,Notebook,Stationery,150,5,20,600.0,Shipped
+ORD00423,2024-08-01,C005,Karan Mehta,Pune,Maharashtra,P003,Headphones,Electronics,3000,2,10,5400.0,Delivered
+ORD00424,2024-10-18,C004,Sneha Iyer,Chennai,Tamil Nadu,P008,Keyboard,Electronics,2500,5,10,11250.0,Delivered
+ORD00425,2024-09-07,C008,Divya Nair,Bangalore,Karnataka,P008,Keyboard,Electronics,2500,2,10,4500.0,Delivered
+ORD00426,2024-10-06,C008,Divya Nair,Bangalore,Karnataka,P003,Headphones,Electronics,3000,5,0,15000.0,Shipped
+ORD00427,2024-02-08,C001,Aarav Sharma,Mumbai,Maharashtra,P001,Laptop,Electronics,45000,4,5,171000.0,Processing
+ORD00428,2024-04-28,C002,Priya Patel,Ahmedabad,Gujarat,P003,Headphones,Electronics,3000,1,5,2850.0,Shipped
+ORD00429,2024-07-10,C001,Aarav Sharma,Mumbai,Maharashtra,P010,Backpack,Accessories,1500,5,15,6375.0,Shipped
+ORD00430,2024-01-09,C001,Aarav Sharma,Mumbai,Maharashtra,P009,Bookshelf,Furniture,5000,5,15,21250.0,Delivered
+ORD00431,2024-09-28,C005,Karan Mehta,Pune,Maharashtra,P009,Bookshelf,Furniture,5000,3,0,15000.0,Shipped
+ORD00432,2024-12-23,C007,Vikram Singh,Jaipur,Rajasthan,P003,Headphones,Electronics,3000,1,0,3000.0,Shipped
+ORD00433,2024-05-03,C004,Sneha Iyer,Chennai,Tamil Nadu,P010,Backpack,Accessories,1500,5,10,6750.0,Processing
+ORD00434,2024-05-16,C007,Vikram Singh,Jaipur,Rajasthan,P002,Smartphone,Electronics,25000,3,15,63750.0,Delivered
+ORD00435,2024-05-04,C004,Sneha Iyer,Chennai,Tamil Nadu,P005,Notebook,Stationery,150,1,0,150.0,Delivered
+ORD00436,2024-07-13,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,4,0,20000.0,Shipped
+ORD00437,2024-12-25,C003,Rohan Verma,Delhi,Delhi,P002,Smartphone,Electronics,25000,4,15,85000.0,Shipped
+ORD00438,2024-06-18,C010,Meera Joshi,Bhopal,Madhya Pradesh,P002,Smartphone,Electronics,25000,5,0,125000.0,Delivered
+ORD00439,2024-12-20,C010,Meera Joshi,Bhopal,Madhya Pradesh,P008,Keyboard,Electronics,2500,3,0,7500.0,Cancelled
+ORD00440,2024-12-16,C005,Karan Mehta,Pune,Maharashtra,P009,Bookshelf,Furniture,5000,5,0,25000.0,Delivered
+ORD00441,2024-06-10,C001,Aarav Sharma,Mumbai,Maharashtra,P004,Desk Chair,Furniture,8000,5,5,38000.0,Processing
+ORD00442,2024-12-30,C007,Vikram Singh,Jaipur,Rajasthan,P002,Smartphone,Electronics,25000,3,5,71250.0,Shipped
+ORD00443,2024-10-17,C007,Vikram Singh,Jaipur,Rajasthan,P009,Bookshelf,Furniture,5000,3,15,12750.0,Processing
+ORD00444,2024-03-12,C002,Priya Patel,Ahmedabad,Gujarat,P009,Bookshelf,Furniture,5000,3,0,15000.0,Delivered
+ORD00445,2024-04-28,C002,Priya Patel,Ahmedabad,Gujarat,P006,Pen Set,Stationery,200,5,20,800.0,Returned
+ORD00446,2024-07-22,C006,Ananya Roy,Kolkata,West Bengal,P001,Laptop,Electronics,45000,3,15,114750.0,Delivered
+ORD00447,2024-07-01,C009,Arjun Gupta,Hyderabad,Telangana,P007,Monitor,Electronics,18000,4,5,68400.0,Shipped
+ORD00448,2024-12-04,C007,Vikram Singh,Jaipur,Rajasthan,P002,Smartphone,Electronics,25000,5,10,112500.0,Processing
+ORD00449,2024-12-31,C002,Priya Patel,Ahmedabad,Gujarat,P002,Smartphone,Electronics,25000,3,5,71250.0,Delivered
+ORD00450,2024-11-20,C003,Rohan Verma,Delhi,Delhi,P007,Monitor,Electronics,18000,3,10,48600.0,Delivered
+ORD00451,2024-01-03,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,3,10,6750.0,Delivered
+ORD00452,2024-02-14,C003,Rohan Verma,Delhi,Delhi,P007,Monitor,Electronics,18000,4,20,57600.0,Shipped
+ORD00453,2024-07-27,C002,Priya Patel,Ahmedabad,Gujarat,P001,Laptop,Electronics,45000,1,10,40500.0,Shipped
+ORD00454,2024-11-01,C010,Meera Joshi,Bhopal,Madhya Pradesh,P006,Pen Set,Stationery,200,4,0,800.0,Delivered
+ORD00455,2024-07-17,C002,Priya Patel,Ahmedabad,Gujarat,P009,Bookshelf,Furniture,5000,2,20,8000.0,Shipped
+ORD00456,2024-12-16,C007,Vikram Singh,Jaipur,Rajasthan,P003,Headphones,Electronics,3000,2,10,5400.0,Delivered
+ORD00457,2024-09-09,C003,Rohan Verma,Delhi,Delhi,P002,Smartphone,Electronics,25000,2,15,42500.0,Delivered
+ORD00458,2024-06-02,C008,Divya Nair,Bangalore,Karnataka,P002,Smartphone,Electronics,25000,3,10,67500.0,Cancelled
+ORD00459,2024-11-16,C008,Divya Nair,Bangalore,Karnataka,P010,Backpack,Accessories,1500,5,5,7125.0,Delivered
+ORD00460,2024-03-10,C005,Karan Mehta,Pune,Maharashtra,P001,Laptop,Electronics,45000,4,10,162000.0,Processing
+ORD00461,2024-07-13,C006,Ananya Roy,Kolkata,West Bengal,P008,Keyboard,Electronics,2500,3,15,6375.0,Processing
+ORD00462,2024-11-29,C010,Meera Joshi,Bhopal,Madhya Pradesh,P003,Headphones,Electronics,3000,3,10,8100.0,Shipped
+ORD00463,2024-12-21,C004,Sneha Iyer,Chennai,Tamil Nadu,P008,Keyboard,Electronics,2500,3,5,7125.0,Returned
+ORD00464,2024-06-12,C005,Karan Mehta,Pune,Maharashtra,P008,Keyboard,Electronics,2500,5,5,11875.0,Delivered
+ORD00465,2024-05-23,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,1,20,160.0,Delivered
+ORD00466,2024-10-06,C003,Rohan Verma,Delhi,Delhi,P009,Bookshelf,Furniture,5000,1,15,4250.0,Cancelled
+ORD00467,2024-04-17,C008,Divya Nair,Bangalore,Karnataka,P005,Notebook,Stationery,150,1,15,127.5,Shipped
+ORD00468,2024-03-12,C005,Karan Mehta,Pune,Maharashtra,P004,Desk Chair,Furniture,8000,3,5,22800.0,Processing
+ORD00469,2024-07-12,C002,Priya Patel,Ahmedabad,Gujarat,P008,Keyboard,Electronics,2500,5,15,10625.0,Shipped
+ORD00470,2024-09-30,C009,Arjun Gupta,Hyderabad,Telangana,P007,Monitor,Electronics,18000,5,0,90000.0,Processing
+ORD00471,2024-07-03,C009,Arjun Gupta,Hyderabad,Telangana,P010,Backpack,Accessories,1500,1,0,1500.0,Processing
+ORD00472,2024-12-02,C006,Ananya Roy,Kolkata,West Bengal,P003,Headphones,Electronics,3000,5,0,15000.0,Shipped
+ORD00473,2024-11-26,C007,Vikram Singh,Jaipur,Rajasthan,P006,Pen Set,Stationery,200,4,0,800.0,Delivered
+ORD00474,2024-05-12,C004,Sneha Iyer,Chennai,Tamil Nadu,P009,Bookshelf,Furniture,5000,5,20,20000.0,Shipped
+ORD00475,2024-10-21,C004,Sneha Iyer,Chennai,Tamil Nadu,P008,Keyboard,Electronics,2500,3,15,6375.0,Delivered
+ORD00476,2024-12-13,C010,Meera Joshi,Bhopal,Madhya Pradesh,P009,Bookshelf,Furniture,5000,2,10,9000.0,Returned
+ORD00477,2024-09-04,C002,Priya Patel,Ahmedabad,Gujarat,P005,Notebook,Stationery,150,4,0,600.0,Delivered
+ORD00478,2024-03-13,C006,Ananya Roy,Kolkata,West Bengal,P005,Notebook,Stationery,150,3,15,382.5,Processing
+ORD00479,2024-09-23,C008,Divya Nair,Bangalore,Karnataka,P006,Pen Set,Stationery,200,4,0,800.0,Delivered
+ORD00480,2024-12-22,C008,Divya Nair,Bangalore,Karnataka,P006,Pen Set,Stationery,200,1,10,180.0,Delivered
+ORD00481,2024-12-29,C002,Priya Patel,Ahmedabad,Gujarat,P001,Laptop,Electronics,45000,3,0,135000.0,Shipped
+ORD00482,2024-03-25,C004,Sneha Iyer,Chennai,Tamil Nadu,P009,Bookshelf,Furniture,5000,2,20,8000.0,Delivered
+ORD00483,2024-10-13,C007,Vikram Singh,Jaipur,Rajasthan,P008,Keyboard,Electronics,2500,2,15,4250.0,Shipped
+ORD00484,2024-04-05,C007,Vikram Singh,Jaipur,Rajasthan,P007,Monitor,Electronics,18000,1,20,14400.0,Cancelled
+ORD00485,2024-08-18,C010,Meera Joshi,Bhopal,Madhya Pradesh,P007,Monitor,Electronics,18000,4,0,72000.0,Processing
+ORD00486,2024-04-15,C005,Karan Mehta,Pune,Maharashtra,P002,Smartphone,Electronics,25000,5,0,125000.0,Processing
+ORD00487,2024-10-01,C003,Rohan Verma,Delhi,Delhi,P006,Pen Set,Stationery,200,3,5,570.0,Delivered
+ORD00488,2024-05-14,C008,Divya Nair,Bangalore,Karnataka,P009,Bookshelf,Furniture,5000,3,20,12000.0,Delivered
+ORD00489,2024-07-19,C010,Meera Joshi,Bhopal,Madhya Pradesh,P002,Smartphone,Electronics,25000,3,10,67500.0,Processing
+ORD00490,2024-11-12,C003,Rohan Verma,Delhi,Delhi,P005,Notebook,Stationery,150,5,20,600.0,Delivered
+ORD00491,2024-03-09,C006,Ananya Roy,Kolkata,West Bengal,P002,Smartphone,Electronics,25000,2,10,45000.0,Delivered
+ORD00492,2024-07-10,C003,Rohan Verma,Delhi,Delhi,P009,Bookshelf,Furniture,5000,4,15,17000.0,Shipped
+ORD00493,2024-10-21,C007,Vikram Singh,Jaipur,Rajasthan,P007,Monitor,Electronics,18000,2,15,30600.0,Shipped
+ORD00494,2024-12-21,C003,Rohan Verma,Delhi,Delhi,P009,Bookshelf,Furniture,5000,2,15,8500.0,Delivered
+ORD00495,2024-04-05,C006,Ananya Roy,Kolkata,West Bengal,P008,Keyboard,Electronics,2500,5,0,12500.0,Cancelled
+ORD00496,2024-01-05,C008,Divya Nair,Bangalore,Karnataka,P003,Headphones,Electronics,3000,2,15,5100.0,Returned
+ORD00497,2024-09-15,C008,Divya Nair,Bangalore,Karnataka,P007,Monitor,Electronics,18000,4,15,61200.0,Processing
+ORD00498,2024-08-15,C008,Divya Nair,Bangalore,Karnataka,P003,Headphones,Electronics,3000,1,20,2400.0,Delivered
+ORD00499,2024-04-22,C005,Karan Mehta,Pune,Maharashtra,P001,Laptop,Electronics,45000,3,5,128250.0,Shipped
+ORD00500,2024-03-27,C008,Divya Nair,Bangalore,Karnataka,P010,Backpack,Accessories,1500,4,20,4800.0,Shipped
